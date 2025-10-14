@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selma Renovation Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .phase {
+            background: white;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-left: 5px solid #667eea;
+        }
+
+        .phase h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 10px;
+        }
+
+        .phase h3 {
+            color: #495057;
+            margin: 20px 0 10px 0;
+            font-size: 1.3em;
+        }
+
+        .phase ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .phase li {
+            margin-bottom: 5px;
+        }
+
+        .cost {
+            background: #e8f5e8;
+            color: #2d5a3d;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .quote {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .question {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 0 5px 5px 0;
+        }
+
+        .reminder {
+            background: #d1ecf1;
+            border-left: 4px solid #17a2b8;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 0 5px 5px 0;
+        }
+
+        .equipment {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        .total-cost {
+            background: linear-gradient(45deg, #28a745, #20c997);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 30px 0;
+            font-size: 1.2em;
+        }
+
+        .phase-unknown {
+            border-left-color: #dc3545;
+        }
+
+        .phase-1 {
+            border-left-color: #007bff;
+        }
+
+        .phase-2 {
+            border-left-color: #28a745;
+        }
+
+        .phase-3 {
+            border-left-color: #ffc107;
+        }
+
+        .phase-4 {
+            border-left-color: #6f42c1;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .phase {
+                padding: 20px;
+            }
+            
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Selma Renovation Project</h1>
+            <p class="subtitle">Multi-Phase Infrastructure & Interior Renovation</p>
+        </header>
+
+        <div class="phase phase-unknown">
+            <h2>Phase Unknown - Pre-Planning</h2>
+            
+            <h3>🏠 Reroofing</h3>
+            <ul>
+                <li>Cannot be done during the raining season</li>
+                <li>The roof life expectancy is another 2-5 years</li>
+                <li>Still waiting for the re-roofing quote report</li>
+                <li><strong>Solar Panels:</strong> 20/44/74 panels → <span class="cost">$26k/$54k/$88k</span></li>
+                <li><strong>Battery:</strong> 9.6×2 = 19.2kw → <span class="cost">$31k×2 = $62k</span></li>
+            </ul>
+
+            <h3>🔧 Ceiling Water Damage</h3>
+            <ul>
+                <li>Need to fix the ceiling damage</li>
+                <li>Should the light bulb installation go in this stage?</li>
+                <li>Can I do the light bulb installation for other units?</li>
+            </ul>
+
+            <h3>🦠 Attic Moldy Issue</h3>
+            <ul>
+                <li>When should the moldy issue be taken care of?</li>
+            </ul>
+        </div>
+
+        <div class="phase phase-1">
+            <h2>Phase #1 - Infrastructure</h2>
+            
+            <h3>🌐 Networking</h3>
+            <p>Run two cables to each output (bedroom, living room, AP, door, and camera):</p>
+            <ul>
+                <li>10 bedrooms = 20 cables</li>
+                <li>4 APs = 8 cables</li>
+                <li>4 living rooms = 8 cables</li>
+                <li>8 entrance doors = 16 cables (optional)</li>
+                <li>4 cameras = 8 cables</li>
+                <li>1 fibre cable between garage</li>
+            </ul>
+            
+            <div class="equipment">
+                <strong>Total:</strong> ~60 network cables + 1 fiber cable<br>
+                <strong>Equipment:</strong> 2 Rack cases need mounting
+            </div>
+
+            <div class="quote">
+                <h4>Quotes Received:</h4>
+                <p><strong>Quote 1:</strong> +1 (778) 708-8377 → <span class="cost">$11.8k</span> (cable running, testing, installation)</p>
+                <p><strong>Quote 2:</strong> +1 (778) 899-1561 → <span class="cost">$10k</span> (cable running and testing)</p>
+            </div>
+
+            <h3>⚡ Power Upgrade</h3>
+            <ul>
+                <li>Upgrade 100V to 200V on each side</li>
+                <li><strong>Cost:</strong> <span class="cost">$7k × 2 = $14k</span></li>
+            </ul>
+            <div class="question">
+                <strong>Question:</strong> Power pre-wire for EV car charger or do this later?
+            </div>
+
+            <h3>❄️ AC Installation - Multi-split VRF</h3>
+            <ul>
+                <li><strong>System:</strong> Mitsubishi Ductless Multi-Split Cold Climate Heat pumps</li>
+                <li><strong>Cost:</strong> <span class="cost">$42k × 2 = $84k</span></li>
+                <li><strong>Configuration:</strong> 7 heads, 1 branch header box, 1 outdoor unit (4.0T)</li>
+                <li>3×6k BTU wall mount + 4×12k BTU units</li>
+            </ul>
+            
+            <div class="reminder">
+                <strong>Reminders:</strong><br>
+                1. Better to do Green house assessment<br>
+                2. Do house insulation<br>
+                3. $40k loan available from <a href="https://natural-resources.canada.ca/energy-efficiency/home-energy-efficiency/canada-greener-homes-initiative/canada-greener-homes-loan" target="_blank">Natural Resources Canada</a>
+            </div>
+
+            <div class="question">
+                <strong>Question:</strong> Can we do pipes & cables and insulation first, install heads and outdoor units later?
+            </div>
+
+            <h3>🔥 Combi Boiler</h3>
+            <ul>
+                <li><strong>System:</strong> Navien Combi Boiler System 199,000 BTU</li>
+                <li><strong>Cost:</strong> <span class="cost">$11.9k × 2 = $23.8k</span></li>
+            </ul>
+            
+            <div class="question">
+                <strong>Question:</strong> Can this boiler be installed in the corner to save space for washroom/storage/hallway?
+            </div>
+            
+            <div class="reminder">
+                <strong>Reminder:</strong> Ensure enough water pressure to service the usage
+            </div>
+        </div>
+
+        <div class="phase phase-2">
+            <h2>Phase #2 - Upper Floor Renovation</h2>
+            <h3>🏠 6421 Upper Floor</h3>
+            <ul>
+                <li>Kitchen renovation</li>
+                <li>Bathroom renovation</li>
+                <li>Floor installation</li>
+            </ul>
+        </div>
+
+        <div class="phase phase-3">
+            <h2>Phase #3 - Lower Floor Renovation</h2>
+            <h3>🏠 6421 Lower Floor</h3>
+            <ul>
+                <li>Kitchen renovation</li>
+            </ul>
+        </div>
+
+        <div class="phase phase-4">
+            <h2>Phase #4 - Exterior & Additional</h2>
+            <h3>🏠 Exterior Work</h3>
+            <h3>🏠 6419 Lower Floor Renovation</h3>
+        </div>
+
+        <div class="total-cost">
+            <h3>💰 Estimated Phase #1 Costs</h3>
+            <p>Networking: ~$10k-12k | Power: $14k | AC: $84k | Boiler: $24k</p>
+            <p><strong>Total Phase #1: ~$132k-136k</strong></p>
+        </div>
+
+        <footer class="footer">
+            <p>This renovation project focuses on infrastructure upgrades, HVAC systems, and interior renovations for properties 6419 and 6421, emphasizing energy efficiency and modern home automation.</p>
+            <p><em>Last updated: October 2025</em></p>
+        </footer>
+    </div>
+</body>
+</html>
