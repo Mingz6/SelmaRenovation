@@ -94,5 +94,16 @@ Run two cables to each output (bedroom, living room, AP, door, and camera). That
 
 ---
 
+## Outdoor (Flexible - Anytime)
+*This phase is flexible and can be done anytime as a reminder.*
+
+1. Fill up the gravel on the sidewalk - Done by the neighbor (No cost)
+   - Optional: Put concrete on top of gravel - Cost: **$4k**
+2. Fill asphalt on the front door driveway - Cost: **$2k**
+3. Put shed at the backyard - Cost: **$1k-$2k**
+4. Build a fence gate on the sidewalk - Cost: **Unknown**
+
+---
+
 ## Project Summary
 This renovation project involves multiple phases focusing on infrastructure upgrades, HVAC systems, and interior renovations for properties 6419 and 6421. The project emphasizes energy efficiency and modern home automation systems.
