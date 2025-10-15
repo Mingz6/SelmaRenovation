@@ -3,9 +3,42 @@
 ## Phase Unknown
 
 ### 0. Reroofing
-- Cannot be done during the raining season
+**Description:**
+- **Material:** Asphalt shingles
+- **Estimated Age:** 17 years old
+- **Life Expectancy:** 15-25 years depending on quality
+- **Current Status:** Cannot be done during the raining season
 - The roof life expectancy is another 2-5 years
 - I am still waiting for the re-roofing quote report
+
+**Critical Issues Found:**
+1. ⚠️ **CRITICAL - Poor Roof Condition**
+   - Multiple patches with poor workmanship
+   - Overall quality of asphalt roofing and underlayment appears substandard
+   - **Impact:** May be contributing to ceiling water leak in Left Upper Unit
+   - **Recommendation:** Replace the roof to prevent further water intrusion
+   - **Timeline:** Immediate
+
+2. ⚠️ **Insufficient Ventilation**
+   - Currently there are 6 vents (insufficient)
+   - Black staining around roof vents from condensation
+   - **Cause:** Warm, humid air from attic meets colder exterior air
+   - **Impact:** Poor ventilation contributing to mold/mildew in attic
+   - **Recommendation:** Need 8-10 vents to prevent mold from happening again
+   - **Timeline:** Immediate
+
+3. **Missing Caulking**
+   - Caulking missing at the bottom of metal vent
+   - **Impact:** Water damage risk
+   - **Recommendation:** Repair during reroofing
+   - **Timeline:** Immediate
+
+**Maintenance Notes:**
+- Flashings should be replaced whenever roof is replaced
+- Annual caulking and maintenance recommended
+- Roofs can leak unpredictably
+
+**Solar Panels & Battery (Optional):**
 - **Solar Panels**: Number of Solar Panels 20/44/74. Cost $26k/$54k/$88k
 - **Battery**: 9.6×2 = 19.2kw. Cost $31k×2 = $62k
 
@@ -76,21 +109,36 @@ Run two cables to each output (bedroom, living room, AP, door, and camera). That
 
 ## Phase #2
 ### 6421 Upper Floor Renovation
-- Kitchen
-- Bathroom
-- Floor
+- Kitchen renovation
+- Bathroom renovation
+- Laminate floor replace if possible
+- Fireplace replaced if possible
 
 ---
 
 ## Phase #3
 ### 6421 Lower Floor Renovation
 - Kitchen
+- **No GFCI outlets in kitchen**
+- **Bathroom:** Grouting and caulking of bathtub/shower stall deteriorated. **High moisture reading** - recommend removing tiles to check for mold
+- Bathroom - Door lock not working
 
 ---
 
 ## Phase #4
 ### Exterior
 ### 6419 Lower Floor Renovation
+- Door bell missing
+- **No GFCI outlets in kitchen**
+- **Bathroom:** Grouting and caulking of bathtub/shower stall deteriorated. **High moisture reading** - recommend removing tiles to check for mold
+### 6419 Upper Floor
+- Both bathrooms need re-caulking and re-grouting at bathtub and shower stall
+- **Smoke detector missing**
+- Master bedroom - Thermostat loose
+- Master bedroom - Door lock not working
+- **Laundry:** Install steel braided supply lines to washer (rubber hoses can burst)
+- **Attic:** Roof sheathing discoloration (black stain) noted - **mold or indoor air quality/remediation specialist recommended**
+- Thermostat not working properly at the fireplace
 
 ---
 
@@ -102,6 +150,8 @@ Run two cables to each output (bedroom, living room, AP, door, and camera). That
 2. Fill asphalt on the front door driveway - Cost: **$2k**
 3. Put shed at the backyard - Cost: **$1k-$2k**
 4. Build a fence gate on the sidewalk - Cost: **Unknown**
+5. Paint deck stairs and front entrance stairs
+   - **Question:** What kind of paint should I get for deck stain and entrance stairs?
 
 ---
 
